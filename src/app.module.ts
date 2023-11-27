@@ -3,6 +3,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { join } from 'path';
 import { EmployeeModule } from './employee/employee.module';
+import { EmployeeOnboardModule } from './employee-onboard/employee-onboard.module';
 
 @Module({
   imports: [
@@ -23,6 +24,7 @@ import { EmployeeModule } from './employee/employee.module';
       }),
     }),
     EmployeeModule,
+    EmployeeOnboardModule,
   ],
   controllers: [],
   providers: [],
