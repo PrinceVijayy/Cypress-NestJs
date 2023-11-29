@@ -1,0 +1,150 @@
+-- To find oracle version
+SELECT * FROM v$version
+
+To open inspect tab
+ctrl+shift+i
+
+To open inspect and directly go to console tab
+ctrl+shift+j
+
+To get the source code 
+ctrl+u
+
+=======================================
+kill port : fuser -k 9001/tcp
+=======================================
+logging.level.org.springframework.web: DEBUG
+logging.level.org.hibernate: ERROR
+=======================================
+
+dev, org
+ dev-master
+ 
+ 
+ MySQL injection attack
+ 
+ I have to get test user after i got the test user i have to disable the permit all and un comment the three commented lines
+
+username : 999999999999 12times or 99999 8times 4016
+password : 123456 or 1234567 
+
+For Cluster
+===========
+
+userId : 99994016
+schoolId : 16
+acadId : 2
+
+For school
+==========
+userId :99999999
+acadId :2
+
+=================================================================================================================
+
+Controller extends BaseConfigController  ->This have the methods of getSchoolId(); and getAcedamicYearId();
+	-> RequestMapping(module/level/screen_name)
+		-> GetMapping()				: 200,[]
+		-> GetMapping('/id')		: 200,404
+		-> PostMapping()			: 201,422
+		-> PutMapping('/id')		: 200,422
+		-> DeleteMapping('/id')		: 204,409
+
+In the service level use post and put as a different methods so the validation part can be flexible.
+==================================================================================================================
+
+Wretch
+Mantine UI
+zod validation
+react query
+
+===================================================================================================================
+65535
+ 
+ 
+
+ 
+ ===================================================================================================================
+ 
+ 
+employeeContributionflag came two times in pf rule
+
+pay head id is float or Long I have to ask in Pay rule master Cluster
+
+bypass url
+
+We have to use give a merge request to the dev
+and 
+
+============================================================================================================
+
+ screen logic 1.4.2 is not achived
+ 
+ If Table is missing or documentation understanding problem contact 
+ susheel dadwal in slack
+ 
+ 1.4.2 in Arrear Document is work of front end
+ 
+ =============================================================================================================
+ 
+ 6. Doc.Ref No in ArrearRules is not understandable.
+ 
+ 2. Data type of month in the front end 
+ ==================================================================================================
+ 
+ Inherit Grade Rules on save serp_pay_grade_structure_clus doubt.
+ 
+ ==================================================================================================
+ 
+ Order:
+ 
+ ORG
+======
+
+1. Pay Rules
+2. Arrear Documents
+3. GPF Percent Rule
+4. PF Rules
+5. PF Withdrawal Rules.
+6. Grade Rules
+7. Arrear Rules
+8. Pay Head Dependency Rules
+9. PF Loan Rules
+ 
+INS
+====
+1.  Inherit Pay Rules
+2.  Inherit Grade Rules
+3.  Inherit Increment Rules
+4.  Pay Master
+5.  Pay Structure
+6.  Statutory Rules
+7.  Variable Pay
+8.  Monthly Attendance Consolidation
+9.  Increment Calculation
+10. Increment Approval
+11. Institute Arrear Documents
+12. Process Monthly Payroll
+13. Arrear Computation
+14. Approve Arrear Computation
+15. Employee GPF Full and Final
+16. Employee PF Opening Blance
+17. GPF March Subscription
+18. Miscellaneous Bills
+19. Miscellaneous Bills Rules
+20. PF Loan
+21. PF Withdrawal Form
+22. Payroll Approval
+
+
+
+==================================
+Anonymus thread 
+spawn
+=============================
+
+Fee Rules current year
+Fee Collection - Current Year
+
+
+SERP_FEE_CONTROL_GROUP , primarykey - FCD_ID

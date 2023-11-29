@@ -25,15 +25,6 @@ export class EmployeeOnboardService {
       this.employeeOnboardRepository.create(employeeOnboard);
     return this.employeeOnboardRepository.save(newemployeeOnboard);
   }
-
-  async update(
-    id: number,
-    employeeOnboard: Partial<EmployeeOnboard>,
-  ): Promise<EmployeeOnboard> {
-    await this.employeeOnboardRepository.update(id, employeeOnboard);
-    return this.employeeOnboardRepository.findOne({ where: { id } });
-  }
-
   async delete(id: number): Promise<void> {
     await this.employeeOnboardRepository.delete(id);
   }
